@@ -1,5 +1,4 @@
 # TemperatureConverter
-
 #include<stdio.h>
 void celsius(float cel){
  float f=(cel*9/5) + 32;
@@ -27,10 +26,10 @@ int main(){
   printf("2.Fahrenheit to Celsius and Kelvin\n");
   printf("3.Kelvin to Celsius and Fahrenheit\n");
   printf("Enter your choice(1 or 2 or 3):");
-    scanf("%d",&ch);
-    if(ch==1){
-    printf("Enter temperature in Celsius :");
-    scanf("%f",&cel);
+  scanf("%d",&ch);
+   if(ch==1){
+   printf("Enter temperature in Celsius :");
+   scanf("%f",&cel);
     celsius(cel);
   }
   else if(ch==2){
